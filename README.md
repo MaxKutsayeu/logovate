@@ -273,3 +273,10 @@ PubkeyAcceptedKeyTypes=+ssh-rsa
 1. If it requires a password for git commands (after adding SSH keys everywhere):
     - find nano .git/config into the project's folder
     - replace https://.. url with git@bitbucket.org:.. in the [remote "origin"] section
+
+
+### Refresh logotypes command (in workspace container)
+```php artisan logotypes:refresh```
+
+### Refresh fonts (in workspace container)
+```php artisan fonts:refresh```
